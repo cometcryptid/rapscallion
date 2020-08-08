@@ -24,7 +24,7 @@ body.main {
     background-position: 50%;
 }
 @media only screen and (max-width: 600px){
-    body:before {
+    body.main {
         content: "";
         display: block;
         position: fixed;
