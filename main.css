@@ -26,6 +26,7 @@ body.main {
 @media only screen and (max-width: 600px){
     body.main {
         background-position: 0%;
+        background-attachment: scroll;
     }
 }
 body.bog {
