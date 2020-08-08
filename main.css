@@ -7,11 +7,12 @@ p.stupid {
 }
 h3 {
     position: relative;
-    top: 20px;
+    top: 18px;
+    font-size: x-large;
 }
 h4 {
     position: relative;
-    bottom: 28px;
+    bottom: 18px;
 }
 body.main {
     color: white;
@@ -43,4 +44,21 @@ body.bi {
     background-image: url("StarSygilOminium.png");
     background-repeat: repeat;
     background-size: 200%;
+}
+span.B {
+    font-weight: bold;
+    font-size: x-large;
+}
+span.i {
+    font-style: italic;
+    font-weight: lighter;
+}
+a.back {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.i2 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
 }
