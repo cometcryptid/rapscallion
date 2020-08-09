@@ -14,10 +14,12 @@ h4 {
     position: relative;
     bottom: 18px;
 }
-body.main {
+body {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     background-image: url("StarSygilOminium.png");
+}
+body.main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,26 +32,23 @@ body.main {
     }
 }
 body.bog {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url("StarSygilOminium.png");
     background-repeat: repeat;
     background-position: 50%;
 }
 body.womic {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url("StarSygilOminium.png");
     background-repeat: repeat;
     background-size: contain;
     background-position: 50%;
 }
 body.bi {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url("StarSygilOminium.png");
     background-repeat: repeat;
     background-size: 200%;
+}
+body.gayme {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 300%;
+    background-position: 40%;
 }
 span.B {
     font-weight: bold;
