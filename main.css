@@ -84,4 +84,7 @@ span.i {
     div.title {
         background-color: rgba(0, 0, 0, 0.5);
     }
+    .container {
+        padding-left: 15px;
+    }
 }
