@@ -1,5 +1,5 @@
 
-.transp {
+nav.transp {
     background-color: rgba(0, 0, 0, 0.5);
 }
 p.stupid {
@@ -27,12 +27,6 @@ body.main {
     background-attachment: fixed;
     background-size: cover;
     background-position: 50%;
-}
-@media only screen and (max-width: 600px){
-    body.main {
-        background-position: 35%;
-        background-attachment: initial;
-    }
 }
 body.bog {
     background-repeat: repeat;
@@ -69,4 +63,13 @@ a.back {
     font-style: italic;
     font-weight: lighter;
     font-size: medium;
+}
+@media only screen and (max-width: 600px){
+    body.main {
+        background-position: 35%;
+        background-attachment: initial;
+    }
+    p.transp {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
