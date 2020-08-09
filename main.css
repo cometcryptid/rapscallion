@@ -72,6 +72,9 @@ span.i {
     p {
         background-color: rgba(0, 0, 0, 0.5);
     }
+    #stupid {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
     h2 {
         background-color: rgba(0, 0, 0, 0.5);
     }
