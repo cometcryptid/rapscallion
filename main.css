@@ -65,10 +65,6 @@ a.back {
     font-size: medium;
 }
 @media only screen and (max-width: 600px){
-    body.main {
-        background-position: 35%;
-        background-attachment: initial;
-    }
     p.transp {
         background-color: rgba(0, 0, 0, 0.5);
     }
