@@ -24,13 +24,14 @@ h4 {
 body {
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("StarSygilOminium.png");
+    background-image: url("/!assets/StarSygilBG.png");
 }
 body.main {
+    background-image: url("/!assets/StarSygilBGAlt.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 50%;
+    background-position: 50%:
 }
 body.bog {
     background-repeat: repeat;
